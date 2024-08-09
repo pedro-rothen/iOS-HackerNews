@@ -44,7 +44,12 @@ class HNServiceImpl: HNServiceApi {
                 return data
             }
             .decode(type: HNResponse.self, decoder: JSONDecoder())
-            .mapError { HNServiceServiceError.decodingError($0) }
+            .mapError {
+                if $0 is HNServiceServiceError {
+                    return $0
+                }
+                return HNServiceServiceError.decodingError($0)
+            }
             .map { $0.hits }
             .eraseToAnyPublisher()
     }

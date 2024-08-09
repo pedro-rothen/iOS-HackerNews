@@ -20,6 +20,19 @@ class NewsRepositoryImpl: NewsRepository {
     func fetchNews(page: Int) -> AnyPublisher<[NewsItem], Error> {
         remoteDataSource
             .fetchNews(page: page)
+            .tryCatch { error in
+                switch error as? HNServiceServiceError {
+                case .networkError(let error):
+                    if let error = error as? URLError, error.code == URLError.notConnectedToInternet {
+                        return Just([HNResult]())
+                            .setFailureType(to: Error.self)
+                            .eraseToAnyPublisher()
+                    }
+                    fallthrough
+                default:
+                    throw error
+                }
+            }
             .map {
                 $0.compactMap {
                     guard let id = Int($0.objectId),
