@@ -10,4 +10,5 @@ import Combine
 
 protocol NewsRepository {
     func fetchNews(page: Int) -> AnyPublisher<[NewsItem], Error>
+    func ban(_ newsItem: NewsItem) -> AnyPublisher<Void, Error>
 }

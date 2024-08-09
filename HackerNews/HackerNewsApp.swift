@@ -13,19 +13,23 @@ struct HackerNewsApp: App {
     let newsFeedViewModel: NewsFeedViewModel
 
     init() {
-        newsFeedViewModel = NewsFeedViewModel(
+        let newsRepository = NewsRepositoryImpl(
+            remoteDataSource: HNServiceImpl(),
+            localDataSource: NewsLocalDataSourceImpl()
+        )
+        let viewModel = NewsFeedViewModel(
             getNewsUseCase: GetNewsUseCaseImpl(
-                newsRepository: NewsRepositoryImpl(
-                    remoteDataSource: HNServiceImpl()
-                )
+                newsRepository: newsRepository
+            ), baneNewsItemUseCase: BanNewsItemUseCaseImpl(
+                newsRepository: newsRepository
             )
         )
+        newsFeedViewModel = viewModel
     }
 
     var body: some Scene {
         WindowGroup {
             NewsFeedView(viewModel: newsFeedViewModel)
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
