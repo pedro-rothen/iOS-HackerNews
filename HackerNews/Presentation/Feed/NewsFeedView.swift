@@ -62,6 +62,7 @@ struct NewsFeedView: View {
         return timeAgo(from: date)
     }
 
+    /// Ago formatting was required from mockup
     func timeAgo(from date: Date) -> String {
         let calendar = Calendar.current
         let now = Date()
@@ -97,6 +98,7 @@ class NewsFeedViewModel: ObservableObject {
     }
 
     func refreshIfNeeded() {
+        // Avoids refreshing if already has items
         if news.isEmpty {
             getNews()
         }
@@ -105,7 +107,7 @@ class NewsFeedViewModel: ObservableObject {
     func getNews() {
         uiState = .loading
         getNewsUseCase
-            .execute(page: 1)
+            .execute(page: 1) /// Challenge did not require infinite scrolling, bbut I did design the domain and data layer to support pagination in case if gets needed
             .receive(on: DispatchQueue.main)
             .sink(receiveCompletion: { [weak self] completion in
                 switch completion {

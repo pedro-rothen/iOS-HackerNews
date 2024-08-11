@@ -21,6 +21,8 @@ class NewsRepositoryImpl: NewsRepository {
         remoteDataSource
             .fetchNews(page: page)
             .tryCatch { error in
+                /// If the error is related to connectivity, an empty object is returned to continue the pipeline.
+                /// If it's another error it's returned immediately to show the failure UI
                 switch error as? HNServiceServiceError {
                 case .networkError(let error):
                     if let error = error as? URLError, error.code == URLError.notConnectedToInternet {
@@ -34,25 +36,31 @@ class NewsRepositoryImpl: NewsRepository {
                 }
             }
             .map {
+                /// Mapping the remote objects to domain ones
                 $0.compactMap {
                     NewsItemMapper.map($0)
                 }
             }
             .flatMap { [localDataSource] (items: [NewsItem]) in
+                // Saving latest copy to local storage
                 _ = localDataSource.save(items)
+                // Always reading from local storage to support offline mode
                 return localDataSource.fetchNews()
             }
             .map {
+                /// Local object to domain one
                 $0.compactMap{ $0.toDomain }
             }.eraseToAnyPublisher()
     }
 
     func ban(_ newsItem: NewsItem) -> AnyPublisher<Void, Error> {
+        // Bans the specify item, does not appear again even from remote refresh
         localDataSource
             .ban(newsItem)
     }
 }
 
+/// Helpers
 extension NewsItemEntity {
     var toDomain: NewsItem? {
         guard let title, let author, let createdAt, let link else { return nil }

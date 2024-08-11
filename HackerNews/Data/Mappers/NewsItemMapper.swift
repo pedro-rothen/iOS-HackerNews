@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Remote object was too different from domain one, also needed to filter objects with a invalid link
 struct NewsItemMapper {
     static func map(_ hnResult: HNResult) -> NewsItem? {
         guard let id = Int(hnResult.objectId),
