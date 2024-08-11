@@ -35,18 +35,7 @@ class NewsRepositoryImpl: NewsRepository {
             }
             .map {
                 $0.compactMap {
-                    guard let id = Int($0.objectId),
-                            let title = $0.title ?? $0.storyTitle, let link = $0.storyUrl else {
-                        return nil
-                    }
-                    return NewsItem(
-                        id: id,
-                        createdAtTimestamp: $0.createdAtTimestamp,
-                        title: title,
-                        author: $0.author,
-                        createdAt: $0.createdAt,
-                        link: link
-                    )
+                    NewsItemMapper.map($0)
                 }
             }
             .flatMap { [localDataSource] (items: [NewsItem]) in

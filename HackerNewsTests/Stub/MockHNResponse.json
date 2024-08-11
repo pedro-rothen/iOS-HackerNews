@@ -1,0 +1,934 @@
+{
+    "exhaustive": {
+        "nbHits": false,
+        "typo": false
+    },
+    "exhaustiveNbHits": false,
+    "exhaustiveTypo": false,
+    "hits": [
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "bmitc"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "Flutter is not bad, but I hesitate diving into it based upon who controls it. Using a Google product feels like you're in constant threat of it just disappearing.<p>It also still has all the remnants of <em>mobile</em> and fingers and not desktop and mouse. Support for improving this is non-existent in my experience."
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Show HN: Rust GUI Library via Flutter"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://cjycode.com/posts/rust-ui-flutter/"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_bmitc",
+                "story_41213711"
+            ],
+            "author": "bmitc",
+            "children": [
+                41217203
+            ],
+            "comment_text": "Flutter is not bad, but I hesitate diving into it based upon who controls it. Using a Google product feels like you&#x27;re in constant threat of it just disappearing.<p>It also still has all the remnants of mobile and fingers and not desktop and mouse. Support for improving this is non-existent in my experience.",
+            "created_at": "2024-08-11T14:36:09Z",
+            "created_at_i": 1723386969,
+            "objectID": "41216469",
+            "parent_id": 41213960,
+            "story_id": 41213711,
+            "story_title": "Show HN: Rust GUI Library via Flutter",
+            "story_url": "https://cjycode.com/posts/rust-ui-flutter/",
+            "updated_at": "2024-08-11T21:22:43Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "xethos"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "AFAIK it is, but I thought I'd stick to claims I was all but certain of when posting from <em>mobile</em> and (because of that) not fact-checking<p>Bit of an ironic one to leave out though, considering my preferences with most of the software I use and enjoy."
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "OpenStreetMap Is Turning 20"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://stevecoast.substack.com/p/the-days-are-long-but-the-years-are"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_xethos",
+                "story_41214259"
+            ],
+            "author": "xethos",
+            "comment_text": "AFAIK it is, but I thought I&#x27;d stick to claims I was all but certain of when posting from mobile and (because of that) not fact-checking<p>Bit of an ironic one to leave out though, considering my preferences with most of the software I use and enjoy.",
+            "created_at": "2024-08-11T13:20:56Z",
+            "created_at_i": 1723382456,
+            "objectID": "41215929",
+            "parent_id": 41215854,
+            "story_id": 41214259,
+            "story_title": "OpenStreetMap Is Turning 20",
+            "story_url": "https://stevecoast.substack.com/p/the-days-are-long-but-the-years-are",
+            "updated_at": "2024-08-11T14:51:43Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "AnthonyMouse"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "&gt; I stacked the deck in AMD's favor using a 3-year-old chip on an older node.<p>You could just compare the ones that are actually on the same process node:<p><a href=\"https://www.notebookcheck.net/R9-7945HX3D-vs-M2-Max_15073_14975.247596.0.html\" rel=\"nofollow\">https://www.notebookcheck.net/R9-7945HX3D-vs-M2-Max_15073_14...</a><p>But then you would see an AMD CPU with a lower TDP getting higher benchmark results.<p>&gt; Why is AMD using 3.6x more power than M1 to get just 32% higher performance while having 17% more cores?<p>Getting 32% higher performance from 17% more cores implies higher performance per core.<p>The power measurements that site uses are from the plug, which is highly variable to the point of uselessness because it takes into account every other component the OEM puts into the machine and random other factors like screen brightness, thermal solution and temperature targets (which affects fan speed which affects fan power consumption) etc. If you measure the wall power of a system with a discrete GPU that by itself has a TDP &gt;100W and the system is drawing &gt;100W, this tells you nothing about the efficiency of the CPU.<p>AMD's CPUs have internal power monitors and configurable power targets. At full load there is very little light between the configured TDP and what they actually use. This is basically required because the CPU has to be able to operate in a system that can't dissipate more heat than that, or one that can't supply more power.<p>&gt; Meanwhile, if AMD used the same 33w, nobody would buy their chips because performance would be so incredibly bad.<p>33W is approximately what their <em>mobile</em> CPUs actually use. Also, even lower-configured TDP models exist and they're not that much slower, e.g. the 7840U has a base TDP of 15W vs. 35W for the 7840HS and the difference is a base clock of 3.3GHz instead of 3.8GHz."
+                },
+                "story_title": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "AMD's Strix Point: Zen 5 Hits <em>Mobile</em>"
+                },
+                "story_url": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "https://chipsandcheese.com/2024/08/10/amds-strix-point-zen-5-hits-<em>mobile</em>/"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_AnthonyMouse",
+                "story_41212271"
+            ],
+            "author": "AnthonyMouse",
+            "children": [
+                41216668
+            ],
+            "comment_text": "&gt; I stacked the deck in AMD&#x27;s favor using a 3-year-old chip on an older node.<p>You could just compare the ones that are actually on the same process node:<p><a href=\"https:&#x2F;&#x2F;www.notebookcheck.net&#x2F;R9-7945HX3D-vs-M2-Max_15073_14975.247596.0.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.notebookcheck.net&#x2F;R9-7945HX3D-vs-M2-Max_15073_14...</a><p>But then you would see an AMD CPU with a lower TDP getting higher benchmark results.<p>&gt; Why is AMD using 3.6x more power than M1 to get just 32% higher performance while having 17% more cores?<p>Getting 32% higher performance from 17% more cores implies higher performance per core.<p>The power measurements that site uses are from the plug, which is highly variable to the point of uselessness because it takes into account every other component the OEM puts into the machine and random other factors like screen brightness, thermal solution and temperature targets (which affects fan speed which affects fan power consumption) etc. If you measure the wall power of a system with a discrete GPU that by itself has a TDP &gt;100W and the system is drawing &gt;100W, this tells you nothing about the efficiency of the CPU.<p>AMD&#x27;s CPUs have internal power monitors and configurable power targets. At full load there is very little light between the configured TDP and what they actually use. This is basically required because the CPU has to be able to operate in a system that can&#x27;t dissipate more heat than that, or one that can&#x27;t supply more power.<p>&gt; Meanwhile, if AMD used the same 33w, nobody would buy their chips because performance would be so incredibly bad.<p>33W is approximately what their mobile CPUs actually use. Also, even lower-configured TDP models exist and they&#x27;re not that much slower, e.g. the 7840U has a base TDP of 15W vs. 35W for the 7840HS and the difference is a base clock of 3.3GHz instead of 3.8GHz.",
+            "created_at": "2024-08-11T12:46:58Z",
+            "created_at_i": 1723380418,
+            "objectID": "41215782",
+            "parent_id": 41213628,
+            "story_id": 41212271,
+            "story_title": "AMD's Strix Point: Zen 5 Hits Mobile",
+            "story_url": "https://chipsandcheese.com/2024/08/10/amds-strix-point-zen-5-hits-mobile/",
+            "updated_at": "2024-08-11T16:48:58Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "nu11ptr"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "React = one small piece of a very large required ecosystem (HTML + CSS + Javascript + NPM + React + Vite + ???)<p>Flutter = a UI framework for <em>mobile</em>/desktop/web (Flutter + Dart)<p>On top of the purpose built nature, nearly everything is a Widget, even layout/styling making it pretty easy to grok very quickly."
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Show HN: Rust GUI Library via Flutter"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://cjycode.com/posts/rust-ui-flutter/"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_nu11ptr",
+                "story_41213711"
+            ],
+            "author": "nu11ptr",
+            "children": [
+                41215808,
+                41216189
+            ],
+            "comment_text": "React = one small piece of a very large required ecosystem (HTML + CSS + Javascript + NPM + React + Vite + ???)<p>Flutter = a UI framework for mobile&#x2F;desktop&#x2F;web (Flutter + Dart)<p>On top of the purpose built nature, nearly everything is a Widget, even layout&#x2F;styling making it pretty easy to grok very quickly.",
+            "created_at": "2024-08-11T12:20:01Z",
+            "created_at_i": 1723378801,
+            "objectID": "41215665",
+            "parent_id": 41214593,
+            "story_id": 41213711,
+            "story_title": "Show HN: Rust GUI Library via Flutter",
+            "story_url": "https://cjycode.com/posts/rust-ui-flutter/",
+            "updated_at": "2024-08-11T20:50:28Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "jcynix"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "&gt; consider installing the StreetComplete <em>mobile</em> app [...]<p>I'll second that and I'd add the tip to install its companion app StreetMeasure too in order to measure things like the width of a street or the length of other things.<p>When on holidays or a weekend trip visiting places I often use StreetComplete to add missing data while walking around with my wife. And recently in the South of France I had to answer questions about the width of rather small streets in an old town center where my guesses wheren't very good. Then StreetComplete suggested that I use StreetMeasure and I got much better estimates."
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "OpenStreetMap Is Turning 20"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://stevecoast.substack.com/p/the-days-are-long-but-the-years-are"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_jcynix",
+                "story_41214259"
+            ],
+            "author": "jcynix",
+            "children": [
+                41216580
+            ],
+            "comment_text": "&gt; consider installing the StreetComplete mobile app [...]<p>I&#x27;ll second that and I&#x27;d add the tip to install its companion app StreetMeasure too in order to measure things like the width of a street or the length of other things.<p>When on holidays or a weekend trip visiting places I often use StreetComplete to add missing data while walking around with my wife. And recently in the South of France I had to answer questions about the width of rather small streets in an old town center where my guesses wheren&#x27;t very good. Then StreetComplete suggested that I use StreetMeasure and I got much better estimates.",
+            "created_at": "2024-08-11T11:34:08Z",
+            "created_at_i": 1723376048,
+            "objectID": "41215481",
+            "parent_id": 41214718,
+            "story_id": 41214259,
+            "story_title": "OpenStreetMap Is Turning 20",
+            "story_url": "https://stevecoast.substack.com/p/the-days-are-long-but-the-years-are",
+            "updated_at": "2024-08-11T18:58:13Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "fsflover"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "I do use the Purism phone as a daily driver. The heavy weight of the duopoly made open specs and drivers impossible in the <em>mobile</em> ecosystem l, as every single manufacturer refuses to release their firmware and drivers. A lot of such projects failed in the past despite a significant demand (proved by many sold Pinephones). My phone is based on the motherboard from a completely different industry (automotive). That made this phone very expensive and simultaneously very slow, heavy and inefficient, compared with all modern smartphones. More details: <a href=\"https://puri.sm/posts/breaking-ground\" rel=\"nofollow\">https://puri.sm/posts/breaking-ground</a>. Making this phone almost killed Purism the company; even today they can't provide all promised refunds.<p>&gt; and the thing forcing upgrades is something like their bank not supporting an OS which no longer receives security updates, which won’t be resolved by flashing a completely unsupported OS.<p>Why wouldn't it be resolved by installing a secure, supported GNU/Linux? Only because banks force you into the duopoly. More alternatives would push the change.<p>&gt; If this is your concern, you should be pushing for laws regarding recycling<p>This is exactly why I support forcing Apple to provide a way to run what I want. Not because of the egoism. I don't even have an iPhone."
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Using alternative browser engines in the European Union"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://developer.apple.com/support/alternative-browser-engines/"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_fsflover",
+                "story_41199627"
+            ],
+            "author": "fsflover",
+            "comment_text": "I do use the Purism phone as a daily driver. The heavy weight of the duopoly made open specs and drivers impossible in the mobile ecosystem l, as every single manufacturer refuses to release their firmware and drivers. A lot of such projects failed in the past despite a significant demand (proved by many sold Pinephones). My phone is based on the motherboard from a completely different industry (automotive). That made this phone very expensive and simultaneously very slow, heavy and inefficient, compared with all modern smartphones. More details: <a href=\"https:&#x2F;&#x2F;puri.sm&#x2F;posts&#x2F;breaking-ground\" rel=\"nofollow\">https:&#x2F;&#x2F;puri.sm&#x2F;posts&#x2F;breaking-ground</a>. Making this phone almost killed Purism the company; even today they can&#x27;t provide all promised refunds.<p>&gt; and the thing forcing upgrades is something like their bank not supporting an OS which no longer receives security updates, which won’t be resolved by flashing a completely unsupported OS.<p>Why wouldn&#x27;t it be resolved by installing a secure, supported GNU&#x2F;Linux? Only because banks force you into the duopoly. More alternatives would push the change.<p>&gt; If this is your concern, you should be pushing for laws regarding recycling<p>This is exactly why I support forcing Apple to provide a way to run what I want. Not because of the egoism. I don&#x27;t even have an iPhone.",
+            "created_at": "2024-08-11T10:27:18Z",
+            "created_at_i": 1723372038,
+            "objectID": "41215216",
+            "parent_id": 41208996,
+            "story_id": 41199627,
+            "story_title": "Using alternative browser engines in the European Union",
+            "story_url": "https://developer.apple.com/support/alternative-browser-engines/",
+            "updated_at": "2024-08-11T16:37:27Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "ekinsdro"
+                },
+                "story_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "HqRadio is a <em>mobile</em> app that delivers quality for listeners. With HqRadio, you can explore an endless stream of online radio stations from around the world. Whether you're into classic rock, the latest hits, or something else entirely, there's always something to enjoy.<p>I originally created HqRadio as a pet project while working as a developer. After years of development, I'm relaunching it as I transition into the Indie Developer path. I'm excited to share this with you and hope you find something you love on HqRadio."
+                },
+                "title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Show HN: HqRadio – Best online radio app"
+                },
+                "url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://hqradio.info/?source=hackernews"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_ekinsdro",
+                "story_41215163",
+                "show_hn"
+            ],
+            "author": "ekinsdro",
+            "children": [
+                41216778
+            ],
+            "created_at": "2024-08-11T10:13:34Z",
+            "created_at_i": 1723371214,
+            "num_comments": 1,
+            "objectID": "41215163",
+            "points": 2,
+            "story_id": 41215163,
+            "story_text": "HqRadio is a mobile app that delivers quality for listeners. With HqRadio, you can explore an endless stream of online radio stations from around the world. Whether you&#x27;re into classic rock, the latest hits, or something else entirely, there&#x27;s always something to enjoy.<p>I originally created HqRadio as a pet project while working as a developer. After years of development, I&#x27;m relaunching it as I transition into the Indie Developer path. I&#x27;m excited to share this with you and hope you find something you love on HqRadio.",
+            "title": "Show HN: HqRadio – Best online radio app",
+            "updated_at": "2024-08-11T15:18:27Z",
+            "url": "https://hqradio.info/?source=hackernews"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "imadj"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "&gt; Why not just use the Chrome render engine directly from Rust?<p>This is what projects like Tauri (in Rust) and Wails (in Go) are doing[0][1]. Utilizing Webview to develop applications, but they still don't support <em>mobile</em>, Tauri <em>mobile</em> is in beta.<p>Basically Tauri and Wails are on one side (HTML/CSS) trying to approach cross platform by supporting <em>mobile</em> platforms, while Flutter and Kotlin Compose Multiplatform started from the other side.<p>So it depends on your needs, web-first or <em>mobile</em>-first, and what platforms matter to you. So far Flutter is in the lead offering the most polished experience when it comes to supporting all platforms (Web, desktop, iOS, Android).<p>[0] <a href=\"https://github.com/tauri-apps/tauri\">https://github.com/tauri-apps/tauri</a><p>[1] <a href=\"https://github.com/wailsapp/wails\">https://github.com/wailsapp/wails</a>"
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Show HN: Rust GUI Library via Flutter"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://cjycode.com/posts/rust-ui-flutter/"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_imadj",
+                "story_41213711"
+            ],
+            "author": "imadj",
+            "comment_text": "&gt; Why not just use the Chrome render engine directly from Rust?<p>This is what projects like Tauri (in Rust) and Wails (in Go) are doing[0][1]. Utilizing Webview to develop applications, but they still don&#x27;t support mobile, Tauri mobile is in beta.<p>Basically Tauri and Wails are on one side (HTML&#x2F;CSS) trying to approach cross platform by supporting mobile platforms, while Flutter and Kotlin Compose Multiplatform started from the other side.<p>So it depends on your needs, web-first or mobile-first, and what platforms matter to you. So far Flutter is in the lead offering the most polished experience when it comes to supporting all platforms (Web, desktop, iOS, Android).<p>[0] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;tauri-apps&#x2F;tauri\">https:&#x2F;&#x2F;github.com&#x2F;tauri-apps&#x2F;tauri</a><p>[1] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;wailsapp&#x2F;wails\">https:&#x2F;&#x2F;github.com&#x2F;wailsapp&#x2F;wails</a>",
+            "created_at": "2024-08-11T08:53:20Z",
+            "created_at_i": 1723366400,
+            "objectID": "41214883",
+            "parent_id": 41214353,
+            "story_id": 41213711,
+            "story_title": "Show HN: Rust GUI Library via Flutter",
+            "story_url": "https://cjycode.com/posts/rust-ui-flutter/",
+            "updated_at": "2024-08-11T14:05:42Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "1317"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "<a href=\"https://www3.nhk.or.jp/nhkworld/daily/k/\" rel=\"nofollow\">https://www3.nhk.or.jp/nhkworld/daily/k/</a><p>NHK World <em>mobile</em> (daftphone) version"
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Ask HN: Major text-based website alternatives?"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_1317",
+                "story_41213927"
+            ],
+            "author": "1317",
+            "comment_text": "<a href=\"https:&#x2F;&#x2F;www3.nhk.or.jp&#x2F;nhkworld&#x2F;daily&#x2F;k&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www3.nhk.or.jp&#x2F;nhkworld&#x2F;daily&#x2F;k&#x2F;</a><p>NHK World mobile (daftphone) version",
+            "created_at": "2024-08-11T08:33:57Z",
+            "created_at_i": 1723365237,
+            "objectID": "41214815",
+            "parent_id": 41213927,
+            "story_id": 41213927,
+            "story_title": "Ask HN: Major text-based website alternatives?",
+            "updated_at": "2024-08-11T08:54:28Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "kkfx"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "I'm curious about how much time skillful, trained, smart people need to realize that collective transit (improperly named public, since it's essentially all private tapping public fund plus tickets and co from the merchandise they carry) are just speculation, practically unsustainable and dollar green, definitively not grass green.<p>Downvotes probably will be the answer.<p>Ladies and gentleman's mass transport works, it efficient and effective, where there are enough people who want to go from A to B, let's say for the purpose it was born, bring workers back and forth slums/factory. It can't be generalized. There are countless A and B 24/7/365 we simply can't much most of them, yes, we can match some, but needing anyway private transports aside, making the overall design inefficient because or you keep moving nearly empty, wasting much resources, or you keep under-utilized transport means en masse, again wasting much resources.<p>The city is the topmost of inefficiency model with their offices and high rise condos where people use both for less than 12h/day commuting between them just to be exposed to physical ads (shop windows), in the past was needed because we haven't efficient enough transportation, TLCs and ITs, meaning we need paper and being at short range. Not the costly tradeoff it's simply too expensive and not anymore needed anyway, except for finance capitalism who need that scale to profit from poor (impoverished) masses who own anything.<p>Try to imaging how NY can go green new deal. Try to estimate the natural resource costs and a hyper-generic outline of how to make it real. Now try to estimate the natural resources needed by a spread society of small buildings, properly using current tech, desktop-centric instead of <em>mobile</em>+cloud for IT. If you do such game you'll discover that modern smart-city narrative is the old Fordlandia one, a fascist distopic society who can't not only work but even being built with Earth resources. The ruling class today is a timocracy, so finance, so they need that model at all costs, but the society need to avoid it at all cost."
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "No-car Games: Los Angeles Olympic venues only accessible by public transit"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://apnews.com/article/2028-los-angeles-olympics-nocar-traffic-homeless-3adafcada2c5964e5dc2da2077a2520d"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_kkfx",
+                "story_41211692"
+            ],
+            "author": "kkfx",
+            "comment_text": "I&#x27;m curious about how much time skillful, trained, smart people need to realize that collective transit (improperly named public, since it&#x27;s essentially all private tapping public fund plus tickets and co from the merchandise they carry) are just speculation, practically unsustainable and dollar green, definitively not grass green.<p>Downvotes probably will be the answer.<p>Ladies and gentleman&#x27;s mass transport works, it efficient and effective, where there are enough people who want to go from A to B, let&#x27;s say for the purpose it was born, bring workers back and forth slums&#x2F;factory. It can&#x27;t be generalized. There are countless A and B 24&#x2F;7&#x2F;365 we simply can&#x27;t much most of them, yes, we can match some, but needing anyway private transports aside, making the overall design inefficient because or you keep moving nearly empty, wasting much resources, or you keep under-utilized transport means en masse, again wasting much resources.<p>The city is the topmost of inefficiency model with their offices and high rise condos where people use both for less than 12h&#x2F;day commuting between them just to be exposed to physical ads (shop windows), in the past was needed because we haven&#x27;t efficient enough transportation, TLCs and ITs, meaning we need paper and being at short range. Not the costly tradeoff it&#x27;s simply too expensive and not anymore needed anyway, except for finance capitalism who need that scale to profit from poor (impoverished) masses who own anything.<p>Try to imaging how NY can go green new deal. Try to estimate the natural resource costs and a hyper-generic outline of how to make it real. Now try to estimate the natural resources needed by a spread society of small buildings, properly using current tech, desktop-centric instead of mobile+cloud for IT. If you do such game you&#x27;ll discover that modern smart-city narrative is the old Fordlandia one, a fascist distopic society who can&#x27;t not only work but even being built with Earth resources. The ruling class today is a timocracy, so finance, so they need that model at all costs, but the society need to avoid it at all cost.",
+            "created_at": "2024-08-11T08:26:57Z",
+            "created_at_i": 1723364817,
+            "objectID": "41214782",
+            "parent_id": 41211692,
+            "story_id": 41211692,
+            "story_title": "No-car Games: Los Angeles Olympic venues only accessible by public transit",
+            "story_url": "https://apnews.com/article/2028-los-angeles-olympics-nocar-traffic-homeless-3adafcada2c5964e5dc2da2077a2520d",
+            "updated_at": "2024-08-11T19:01:42Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Ruthalas"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "If you appreciate OSM, consider installing the StreetComplete <em>mobile</em> app[0]! It lets you contribute to OSM in a very simple manner, via simple questions like, &quot;Is there a marked crosswalk here?&quot;<p>I'm not affiliated, I just think it's cool. It's very satisfying to complete quests in your local area.<p>[0] <a href=\"https://streetcomplete.app/\" rel=\"nofollow\">https://streetcomplete.app/</a>"
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "OpenStreetMap Is Turning 20"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://stevecoast.substack.com/p/the-days-are-long-but-the-years-are"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_Ruthalas",
+                "story_41214259"
+            ],
+            "author": "Ruthalas",
+            "children": [
+                41215119,
+                41214777,
+                41217470,
+                41215106,
+                41216665,
+                41215530,
+                41215481,
+                41215567,
+                41215639,
+                41217531,
+                41215112
+            ],
+            "comment_text": "If you appreciate OSM, consider installing the StreetComplete mobile app[0]! It lets you contribute to OSM in a very simple manner, via simple questions like, &quot;Is there a marked crosswalk here?&quot;<p>I&#x27;m not affiliated, I just think it&#x27;s cool. It&#x27;s very satisfying to complete quests in your local area.<p>[0] <a href=\"https:&#x2F;&#x2F;streetcomplete.app&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;streetcomplete.app&#x2F;</a>",
+            "created_at": "2024-08-11T08:13:44Z",
+            "created_at_i": 1723364024,
+            "objectID": "41214718",
+            "parent_id": 41214259,
+            "story_id": 41214259,
+            "story_title": "OpenStreetMap Is Turning 20",
+            "story_url": "https://stevecoast.substack.com/p/the-days-are-long-but-the-years-are",
+            "updated_at": "2024-08-11T21:07:28Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "1vuio0pswjnm7"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "This sounds rather silly.  If this is really a concern, then &quot;curl&quot; or &quot;wget&quot; can be renamed.  I use an application level firewall on <em>mobile</em> and I do not &quot;whitelist&quot; names of programs, I &quot;whitelist&quot; access to certain domain names/IP addresses by certain programs.<p>The easiest way to stop programs/malware from phoning home IME is to deny access to DNS.  I have been doing this for decades and it still works flawlessly.   &quot;99%&quot; of the time programs/malware that phone home rely on DNS, not &quot;hard-coded&quot; IP addresses.  And it is quite easy for me to detect the rare case of a program/malware that does not need DNS.<p>With DNS I &quot;whitelist&quot; certain domain names.   In fact today I do not even use a locally-served zone file with the IP addresses I need (the whitelist); a forward proxy handles the domain to IP address mapping, the whitelist loaded by the proxy is a text file, like a zone file but simpler."
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "OpenSnitch is a GNU/Linux interactive application firewall"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://github.com/evilsocket/opensnitch"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_1vuio0pswjnm7",
+                "story_41209688"
+            ],
+            "author": "1vuio0pswjnm7",
+            "comment_text": "This sounds rather silly.  If this is really a concern, then &quot;curl&quot; or &quot;wget&quot; can be renamed.  I use an application level firewall on mobile and I do not &quot;whitelist&quot; names of programs, I &quot;whitelist&quot; access to certain domain names&#x2F;IP addresses by certain programs.<p>The easiest way to stop programs&#x2F;malware from phoning home IME is to deny access to DNS.  I have been doing this for decades and it still works flawlessly.   &quot;99%&quot; of the time programs&#x2F;malware that phone home rely on DNS, not &quot;hard-coded&quot; IP addresses.  And it is quite easy for me to detect the rare case of a program&#x2F;malware that does not need DNS.<p>With DNS I &quot;whitelist&quot; certain domain names.   In fact today I do not even use a locally-served zone file with the IP addresses I need (the whitelist); a forward proxy handles the domain to IP address mapping, the whitelist loaded by the proxy is a text file, like a zone file but simpler.",
+            "created_at": "2024-08-11T07:53:40Z",
+            "created_at_i": 1723362820,
+            "objectID": "41214627",
+            "parent_id": 41210536,
+            "story_id": 41209688,
+            "story_title": "OpenSnitch is a GNU/Linux interactive application firewall",
+            "story_url": "https://github.com/evilsocket/opensnitch",
+            "updated_at": "2024-08-11T17:59:14Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "nicodemusdu"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "CIC (Compound Interest Calculator) is a powerful tool designed to help you visualize and plan your journey to financial freedom. Here's what makes CIC unique:<p>Intuitive Interface: Easy-to-use sliders for adjusting variables like initial investment, monthly contribution, interest rate, and time period.\nReal-time Calculations: Instantly see how changes in your inputs affect your long-term wealth accumulation.\nMultiple Scenarios: Compare different investment strategies side-by-side to optimize your financial planning.\nInflation Consideration: Option to factor in inflation rates for more realistic projections.\nVisual Representation: Clear graphs showing the growth of your investment over time.\n<em>Mobile</em> Responsive: Access and use the calculator on any device.\nNo Sign-up Required: Start calculating immediately without any registration process.<p>Whether you're a beginner investor or a financial planner, CIC provides the insights you need to make informed decisions about your financial future. It answers the crucial question: &quot;How much do I need to save to achieve financial freedom?&quot;"
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "How to Achieve Financial Freedom Through Compound Interest? CIC"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://compoundinterestcal.com/"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_nicodemusdu",
+                "story_41214577"
+            ],
+            "author": "nicodemusdu",
+            "comment_text": "CIC (Compound Interest Calculator) is a powerful tool designed to help you visualize and plan your journey to financial freedom. Here&#x27;s what makes CIC unique:<p>Intuitive Interface: Easy-to-use sliders for adjusting variables like initial investment, monthly contribution, interest rate, and time period.\nReal-time Calculations: Instantly see how changes in your inputs affect your long-term wealth accumulation.\nMultiple Scenarios: Compare different investment strategies side-by-side to optimize your financial planning.\nInflation Consideration: Option to factor in inflation rates for more realistic projections.\nVisual Representation: Clear graphs showing the growth of your investment over time.\nMobile Responsive: Access and use the calculator on any device.\nNo Sign-up Required: Start calculating immediately without any registration process.<p>Whether you&#x27;re a beginner investor or a financial planner, CIC provides the insights you need to make informed decisions about your financial future. It answers the crucial question: &quot;How much do I need to save to achieve financial freedom?&quot;",
+            "created_at": "2024-08-11T07:40:49Z",
+            "created_at_i": 1723362049,
+            "objectID": "41214578",
+            "parent_id": 41214577,
+            "story_id": 41214577,
+            "story_title": "How to Achieve Financial Freedom Through Compound Interest? CIC",
+            "story_url": "https://compoundinterestcal.com/",
+            "updated_at": "2024-08-11T07:43:41Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "phfrohring"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "&gt; The individual “Show Answer” buttons are doing nothing on <em>mobile</em> Safari.<p>It should be fixed.<p><pre><code>            :host(.hidden), :host(.hidden) * {\n                /*\n                 * display: none; does not work because of a bug.\n                 * bug: https://bugs.webkit.org/show_bug.cgi?id=188259\n                 */\n                visibility: hidden;\n                width: 0;\n                height: 0;\n            }</code></pre>"
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "An article using The Little Schemer format, what do you think of it?"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://phfrohring.com/page/ac946fae-6766-428b-bb26-c63880167228/"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_phfrohring",
+                "story_41181468"
+            ],
+            "author": "phfrohring",
+            "comment_text": "&gt; The individual “Show Answer” buttons are doing nothing on mobile Safari.<p>It should be fixed.<p><pre><code>            :host(.hidden), :host(.hidden) * {\n                &#x2F;*\n                 * display: none; does not work because of a bug.\n                 * bug: https:&#x2F;&#x2F;bugs.webkit.org&#x2F;show_bug.cgi?id=188259\n                 *&#x2F;\n                visibility: hidden;\n                width: 0;\n                height: 0;\n            }</code></pre>",
+            "created_at": "2024-08-11T07:27:07Z",
+            "created_at_i": 1723361227,
+            "objectID": "41214528",
+            "parent_id": 41212786,
+            "story_id": 41181468,
+            "story_title": "An article using The Little Schemer format, what do you think of it?",
+            "story_url": "https://phfrohring.com/page/ac946fae-6766-428b-bb26-c63880167228/",
+            "updated_at": "2024-08-11T07:33:15Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "fzyzcjy"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "Thank you! I heard some people saying that, for apps using JavaScript, Tauri is replacing Electron and is popular nowadays, since Electron is very widely used. It seems Tauri cannot let Rust communicate with JavaScript very seamlessly yet, e.g. <a href=\"https://tauri.app/v1/guides/features/command/\" rel=\"nofollow\">https://tauri.app/v1/guides/features/command/</a> seems to have mainly basic features. oneshtein mentioned below that Tauri does not support <em>mobile</em> as first class citizen yet as well. Looking forward to seeing Tauri's bridge to improve and supporting <em>mobile</em> better in the future!"
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Show HN: Rust GUI Library via Flutter"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://cjycode.com/posts/rust-ui-flutter/"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_fzyzcjy",
+                "story_41213711"
+            ],
+            "author": "fzyzcjy",
+            "children": [
+                41214828
+            ],
+            "comment_text": "Thank you! I heard some people saying that, for apps using JavaScript, Tauri is replacing Electron and is popular nowadays, since Electron is very widely used. It seems Tauri cannot let Rust communicate with JavaScript very seamlessly yet, e.g. <a href=\"https:&#x2F;&#x2F;tauri.app&#x2F;v1&#x2F;guides&#x2F;features&#x2F;command&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;tauri.app&#x2F;v1&#x2F;guides&#x2F;features&#x2F;command&#x2F;</a> seems to have mainly basic features. oneshtein mentioned below that Tauri does not support mobile as first class citizen yet as well. Looking forward to seeing Tauri&#x27;s bridge to improve and supporting mobile better in the future!",
+            "created_at": "2024-08-11T07:03:05Z",
+            "created_at_i": 1723359785,
+            "objectID": "41214452",
+            "parent_id": 41214313,
+            "story_id": 41213711,
+            "story_title": "Show HN: Rust GUI Library via Flutter",
+            "story_url": "https://cjycode.com/posts/rust-ui-flutter/",
+            "updated_at": "2024-08-11T21:14:58Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "dylan604"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "That sounds like a really dumb way to fly. Any decent form of communication would never word something that could be misinterpreted by lack of response. Either it comes from inexperience or hopeful mischievous confusion. It's like the old <em>mobile</em> carrier commercial where the wrong message was received when the call was dropped at inappropriate times because of the phrasing.<p>It would just be so easy for the other party to retort with &quot;we never agreed to that&quot; because the did not. I'm no legal type, but this just doesn't seem like it would ever hold up in any way. Even with wording of &quot;if we do not hear back, it will be assumed as your agreement&quot; as there's no proof it was actually ever received."
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Entropic Engineering DEFCON 32 Statement"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://www.entropicengineering.com/defcon-32-statement"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_dylan604",
+                "story_41212899"
+            ],
+            "author": "dylan604",
+            "comment_text": "That sounds like a really dumb way to fly. Any decent form of communication would never word something that could be misinterpreted by lack of response. Either it comes from inexperience or hopeful mischievous confusion. It&#x27;s like the old mobile carrier commercial where the wrong message was received when the call was dropped at inappropriate times because of the phrasing.<p>It would just be so easy for the other party to retort with &quot;we never agreed to that&quot; because the did not. I&#x27;m no legal type, but this just doesn&#x27;t seem like it would ever hold up in any way. Even with wording of &quot;if we do not hear back, it will be assumed as your agreement&quot; as there&#x27;s no proof it was actually ever received.",
+            "created_at": "2024-08-11T05:45:05Z",
+            "created_at_i": 1723355105,
+            "objectID": "41214212",
+            "parent_id": 41213948,
+            "story_id": 41212899,
+            "story_title": "Entropic Engineering DEFCON 32 Statement",
+            "story_url": "https://www.entropicengineering.com/defcon-32-statement",
+            "updated_at": "2024-08-11T09:37:56Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "rafaelmn"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "That's what I'm thinking - they make trade-offs to reach peak performance in desktop designs that don't translate optimally to laptops and when you start from <em>mobile</em> designs you probably made the opposite trade-offs - that would be my guess for the discrepancy."
+                },
+                "story_title": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "AMD's Strix Point: Zen 5 Hits <em>Mobile</em>"
+                },
+                "story_url": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "https://chipsandcheese.com/2024/08/10/amds-strix-point-zen-5-hits-<em>mobile</em>/"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_rafaelmn",
+                "story_41212271"
+            ],
+            "author": "rafaelmn",
+            "children": [
+                41216384,
+                41214177
+            ],
+            "comment_text": "That&#x27;s what I&#x27;m thinking - they make trade-offs to reach peak performance in desktop designs that don&#x27;t translate optimally to laptops and when you start from mobile designs you probably made the opposite trade-offs - that would be my guess for the discrepancy.",
+            "created_at": "2024-08-11T05:14:28Z",
+            "created_at_i": 1723353268,
+            "objectID": "41214124",
+            "parent_id": 41214115,
+            "story_id": 41212271,
+            "story_title": "AMD's Strix Point: Zen 5 Hits Mobile",
+            "story_url": "https://chipsandcheese.com/2024/08/10/amds-strix-point-zen-5-hits-mobile/",
+            "updated_at": "2024-08-11T14:25:57Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "rafaelmn"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "From you link - Intel is topping the performance charts (alongside AMD in SC) - they probably tune power usage agressively to achieve these results.<p>I would guess it's more to do with coming from desktop CPU design to <em>mobile</em> vs. phones to laptops."
+                },
+                "story_title": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "AMD's Strix Point: Zen 5 Hits <em>Mobile</em>"
+                },
+                "story_url": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "https://chipsandcheese.com/2024/08/10/amds-strix-point-zen-5-hits-<em>mobile</em>/"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_rafaelmn",
+                "story_41212271"
+            ],
+            "author": "rafaelmn",
+            "children": [
+                41214115
+            ],
+            "comment_text": "From you link - Intel is topping the performance charts (alongside AMD in SC) - they probably tune power usage agressively to achieve these results.<p>I would guess it&#x27;s more to do with coming from desktop CPU design to mobile vs. phones to laptops.",
+            "created_at": "2024-08-11T04:56:29Z",
+            "created_at_i": 1723352189,
+            "objectID": "41214069",
+            "parent_id": 41213714,
+            "story_id": 41212271,
+            "story_title": "AMD's Strix Point: Zen 5 Hits Mobile",
+            "story_url": "https://chipsandcheese.com/2024/08/10/amds-strix-point-zen-5-hits-mobile/",
+            "updated_at": "2024-08-11T19:17:43Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "oneshtein"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "Tauri supports <em>mobile</em> platforms too. Sadly, it's not a first class citizen in Tauri 2.0 as promised.<p>I tried both Flutter and Tauri. IMHO: Tauri is better, because it allows me to use existing web frameworks (or even plain Markdown + Pandoc!), to make web-pages, while handling business logic in type safe Rust."
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Show HN: Rust GUI Library via Flutter"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://cjycode.com/posts/rust-ui-flutter/"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_oneshtein",
+                "story_41213711"
+            ],
+            "author": "oneshtein",
+            "children": [
+                41214476,
+                41214472
+            ],
+            "comment_text": "Tauri supports mobile platforms too. Sadly, it&#x27;s not a first class citizen in Tauri 2.0 as promised.<p>I tried both Flutter and Tauri. IMHO: Tauri is better, because it allows me to use existing web frameworks (or even plain Markdown + Pandoc!), to make web-pages, while handling business logic in type safe Rust.",
+            "created_at": "2024-08-11T04:43:08Z",
+            "created_at_i": 1723351388,
+            "objectID": "41214037",
+            "parent_id": 41213947,
+            "story_id": 41213711,
+            "story_title": "Show HN: Rust GUI Library via Flutter",
+            "story_url": "https://cjycode.com/posts/rust-ui-flutter/",
+            "updated_at": "2024-08-11T09:45:26Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "sbt567"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "mobile"
+                    ],
+                    "value": "Well done! I've heard only good things about rust_flutter_bridge. Some questions though (more like flutter question), how bloated flutter is (i.e. final app size) compared to <em>mobile</em> native (Java, Swift?) for simple app? And how's the UI performance looks like?"
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Show HN: Rust GUI Library via Flutter"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://cjycode.com/posts/rust-ui-flutter/"
+                }
+            },
+            "_tags": [
+                "comment",
+                "author_sbt567",
+                "story_41213711"
+            ],
+            "author": "sbt567",
+            "children": [
+                41214366
+            ],
+            "comment_text": "Well done! I&#x27;ve heard only good things about rust_flutter_bridge. Some questions though (more like flutter question), how bloated flutter is (i.e. final app size) compared to mobile native (Java, Swift?) for simple app? And how&#x27;s the UI performance looks like?",
+            "created_at": "2024-08-11T04:40:10Z",
+            "created_at_i": 1723351210,
+            "objectID": "41214024",
+            "parent_id": 41213711,
+            "story_id": 41213711,
+            "story_title": "Show HN: Rust GUI Library via Flutter",
+            "story_url": "https://cjycode.com/posts/rust-ui-flutter/",
+            "updated_at": "2024-08-11T21:15:43Z"
+        }
+    ],
+    "hitsPerPage": 20,
+    "nbHits": 323162,
+    "nbPages": 50,
+    "page": 1,
+    "params": "query=mobile&page=1&advancedSyntax=true&analyticsTags=backend",
+    "processingTimeMS": 5,
+    "processingTimingsMS": {
+        "_request": {
+            "roundTrip": 14
+        },
+        "afterFetch": {
+            "format": {
+                "highlighting": 1,
+                "total": 1
+            }
+        },
+        "fetch": {
+            "query": 3,
+            "total": 4
+        },
+        "total": 5
+    },
+    "query": "mobile",
+    "serverTimeMS": 7
+}
