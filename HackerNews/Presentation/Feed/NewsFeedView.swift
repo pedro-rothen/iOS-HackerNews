@@ -11,9 +11,10 @@ import WebKit
 
 struct NewsFeedView: View {
     @StateObject var viewModel: NewsFeedViewModel
+    let coordinator: NewsCoordinator
 
     var body: some View {
-        NavigationStack {
+        ZStack {
             Group {
                 switch viewModel.uiState {
                 case .idle:
@@ -23,24 +24,20 @@ struct NewsFeedView: View {
                         .controlSize(.large)
                 case .success:
                     List(viewModel.news, id: \.self) { newsItem in
-                        NavigationLink(destination: {
-                            if let url = URL(string: newsItem.link) {
-                                WebView(url: url)
+                        VStack(alignment: .leading) {
+                            Text(newsItem.title)
+                                .font(.title3)
+                            Text("\(newsItem.author) - \(styled(stringDate: newsItem.createdAt))")
+                                .foregroundColor(.gray)
+                        }.swipeActions(edge: .trailing) {
+                            Button(role: .destructive) {
+                                viewModel.ban(newsItem: newsItem)
+                            } label: {
+                                Label("Delete", systemImage: "trash")
                             }
-                        }, label: {
-                            VStack(alignment: .leading) {
-                                Text(newsItem.title)
-                                    .font(.title3)
-                                Text("\(newsItem.author) - \(styled(stringDate: newsItem.createdAt))")
-                                    .foregroundColor(.gray)
-                            }.swipeActions(edge: .trailing) {
-                                Button(role: .destructive) {
-                                    viewModel.ban(newsItem: newsItem)
-                                } label: {
-                                    Label("Delete", systemImage: "trash")
-                                }
-                            }
-                        })
+                        }.onTapGesture {
+                            coordinator.showNewsItemDetail(newsItem)
+                        }
                     }
                 case .failed:
                     Button(action: {
@@ -51,7 +48,7 @@ struct NewsFeedView: View {
                 }
             }
         }.onAppear {
-            viewModel.getNews()
+            viewModel.refreshIfNeeded()
         }.refreshable {
             viewModel.getNews()
         }
@@ -86,18 +83,6 @@ struct NewsFeedView: View {
     }
 }
 
-struct WebView: UIViewRepresentable {
-    let url: URL
-
-    func makeUIView(context: Context) -> WKWebView {
-        return WKWebView()
-    }
-
-    func updateUIView(_ uiView: WKWebView, context: Context) {
-        uiView.load(URLRequest(url: url))
-    }
-}
-
 @MainActor
 class NewsFeedViewModel: ObservableObject {
     @Published var news = [NewsItem]()
@@ -109,6 +94,12 @@ class NewsFeedViewModel: ObservableObject {
     init(getNewsUseCase: GetNewsUseCase, baneNewsItemUseCase: BanNewsItemUseCase) {
         self.getNewsUseCase = getNewsUseCase
         self.baneNewsItemUseCase = baneNewsItemUseCase
+    }
+
+    func refreshIfNeeded() {
+        if news.isEmpty {
+            getNews()
+        }
     }
 
     func getNews() {
@@ -161,5 +152,5 @@ enum NewsFeedUiState {
             newsRepository: newsRepository
         )
     )
-    return NewsFeedView(viewModel: viewModel)
+    return NewsFeedView(viewModel: viewModel, coordinator: NewsCoordinator())
 }

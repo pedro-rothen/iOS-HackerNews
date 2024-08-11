@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct HackerNewsApp: App {
-    let persistenceController = PersistenceController.shared
+    @StateObject var coordinator = NewsCoordinator()
     let newsFeedViewModel: NewsFeedViewModel
 
     init() {
@@ -29,7 +29,14 @@ struct HackerNewsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            NewsFeedView(viewModel: newsFeedViewModel)
+            NavigationStack(path: $coordinator.navigationPath) {
+                NewsFeedView(
+                    viewModel: newsFeedViewModel, 
+                    coordinator: coordinator
+                ).navigationDestination(for: NewsItem.self) {
+                    NewsFeedDetail(newsItem: $0)
+                }
+            }
         }
     }
 }
